@@ -21,7 +21,7 @@ use ClearSale\XmlEntity\SendOrder\Phone;
 
 try {
     // Dados da Integração com a ClearSale
-    $entityCode = '<CLEARSALE_ENTITY_CODE>';
+    $entityCode = '<CLEARSALE_ENTITY_CODE-DIGITE SUA CHAVE PRIVADA AQUI>';
     $environment = new Sandbox($entityCode);
 
     // Dados do Pedido
